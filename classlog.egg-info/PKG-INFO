@@ -10,6 +10,9 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: rpalign
+Requires-Dist: scikit-learn>=0.24.1
 
 # classLog: Machine learning tool for classification of genetic sequences
 Implementation of logistic regression for classification of sequences based on a reference set. Classlog 
